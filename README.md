@@ -21,9 +21,9 @@ $ go get github.com/DiSiqueira/itiwildcard
 ## Basic usage
 
 ```go
-	r := itinerary.NewRouter()
+r := itinerary.NewRouter()
 
-	r.NewPath(RateHandler).AddMatcher(ItiWildcard.New("/movies/*/rate"))
+r.NewPath(RateHandler).AddMatcher(ItiWildcard.New("/movies/*/rate"))
 ```
 
 ## Full Example
