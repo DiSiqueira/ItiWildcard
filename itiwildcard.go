@@ -10,7 +10,7 @@ type WildcardMatcher struct {
 	template string
 }
 
-// NewWildcard is the constructor to ItiWildcard
+// New is the constructor to ItiWildcard
 func New(template string) *WildcardMatcher {
 	return &WildcardMatcher{
 		template: template,
