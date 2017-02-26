@@ -15,7 +15,7 @@ ItiWildcard is stable. Pull Requests [are welcome](https://github.com/DiSiqueira
 ### Go Get
 
 ```bash
-$ go get github.com/DiSiqueira/ItiWildcard
+$ go get github.com/DiSiqueira/itiwildcard
 ```
 
 ## Basic usage
